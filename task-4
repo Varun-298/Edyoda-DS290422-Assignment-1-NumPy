@@ -1,0 +1,9 @@
+Find indices of non-zero elements from [1,2,0,0,4,0]
+
+import numpy as np
+nums = np.array([1,2,0,0,4,0])
+print("Original array:")
+print(nums)
+print("Indices of elements equal to zero of the said array:")
+result = np.where(nums == 0)[0]
+print(result)
